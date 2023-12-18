@@ -1,0 +1,13 @@
+prefix=C:/Users/omsai/velocity/Model/i nuerone project/venv/Library
+exec_prefix=C:/Users/omsai/velocity/Model/i nuerone project/venv/Library
+libdir=C:/Users/omsai/velocity/Model/i nuerone project/venv/Library/lib
+sharedlibdir=C:/Users/omsai/velocity/Model/i nuerone project/venv/Library/lib
+includedir=C:/Users/omsai/velocity/Model/i nuerone project/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
